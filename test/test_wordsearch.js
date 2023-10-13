@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const wordSearch = require('../wordsearch.js')
+const wordSearch = require('../wordsearch.js'); // Import the 'wordSearch' function from the external file.
 
 describe("#wordSearch()", function() {
   it("should return false if the word is not present", function() {
